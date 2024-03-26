@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
   font-family: Helvetica, sans-serif;
 }
 
 .login-box {
   max-width: 250px;
   margin-inline: auto;
-  background-color: #e8e8ea;
+  background-color: #fff;
   padding: 20px;
   padding-top: 10px;
   border-radius: 10px;
