@@ -6,10 +6,10 @@ const Header = () => {
       style={{
         background: "#0364cb",
         padding: "20px",
-        marginBottom: "20px",
+        marginBottom: "40px",
       }}
     >
-      <h3
+      <h2
         style={{
           margin: "0px",
           color: "whitesmoke",
@@ -17,7 +17,7 @@ const Header = () => {
         }}
       >
         Quiz App
-      </h3>
+      </h2>
     </div>
   );
 };

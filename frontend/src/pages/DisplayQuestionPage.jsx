@@ -28,18 +28,12 @@ const DisplayQuestionPage = () => {
     });
 
     const res = await response.json();
-    dispatch(changeQuiz(res));
+    dispatch(changeQuiz(res)); //this will change the quiz question
   }
 
   //func to navigate to home page
   function handleClick() {
     navigate("/home");
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(e.target);
-    //calculate score here, and show result
   }
 
   return (
@@ -48,12 +42,7 @@ const DisplayQuestionPage = () => {
         <div className="questionBox">
           <h2 style={{ color: "#0364cb" }}> {topicName} quiz</h2>
           <hr />
-          <form onSubmit={handleSubmit}>
-            {questions.map((item) => (
-              <QuestionCard key={item._id} ques={item} />
-            ))}
-            <button>Submit</button>
-          </form>
+          <QuestionCard />
         </div>
       ) : (
         <p style={{ marginTop: "50px" }}>
