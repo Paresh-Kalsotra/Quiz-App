@@ -28,20 +28,21 @@ const HomePage = () => {
   return (
     <div className="topicContainer">
       <ul>
-        <li>Welcome to the Quiz app.</li>
-        <li>
-          Test will consist of five questions, with only one correct option per
-          question.
-        </li>
+        <h2>Welcome to the Quiz app.</h2>
         <li>
           Please select a topic from the options provided below to begin the
           test.
         </li>
+        <li>
+          Test will consist of five questions, with only one correct option per
+          question.
+        </li>
+        <li>Attempt questions and submit to get your score.</li>
         <li>Good luck!</li>
       </ul>
 
       {topics.length ? (
-        <div>
+        <div style={{ padding: "10px", display: "flex", flexWrap: "wrap" }}>
           {topics.map((item) => (
             <TopicCard key={item} topic={item} />
           ))}

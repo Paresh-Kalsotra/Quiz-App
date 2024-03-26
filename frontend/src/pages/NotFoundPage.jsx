@@ -13,6 +13,7 @@ const NotFoundPage = () => {
           fontSize: "2.5rem",
           fontWeight: "bold",
           marginBottom: "1rem",
+          color: "#0364cb",
         }}
       >
         404 Page Not Found

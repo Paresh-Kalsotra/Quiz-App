@@ -43,25 +43,28 @@ const DisplayQuestionPage = () => {
   }
 
   return (
-    <>
+    <div className="quizBox">
       {topicName && questions.length ? (
-        <>
-          {console.log(questions)}
-          <h2> Quiz on {topicName}</h2>
+        <div className="questionBox">
+          <h2> {topicName} quiz</h2>
+          <hr />
           <form onSubmit={handleSubmit}>
             {questions.map((item) => (
               <QuestionCard key={item._id} ques={item} />
             ))}
             <button>Submit</button>
           </form>
-        </>
+        </div>
       ) : (
-        <p>
+        <p style={{ marginTop: "100px" }}>
           Topic Lost!! Go back to Home page to select topic.
-          <button onClick={handleClick}>Home</button>
+          <br />
+          <button className="homeReturnBtn" onClick={handleClick}>
+            Home
+          </button>
         </p>
       )}
-    </>
+    </div>
   );
 };
 

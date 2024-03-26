@@ -48,7 +48,7 @@ function LoginPage() {
 
   return (
     <div>
-      <h1 style={{ textAlign: "center", marginTop: "10vh" }}>
+      <h1 style={{ textAlign: "center", marginTop: "10vh", color: "#0364cb" }}>
         Welcome to Quiz App
       </h1>
       <div className="login-box">

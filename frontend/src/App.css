@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #ccc;
   font-family: Helvetica, sans-serif;
 }
 
 .login-box {
   max-width: 250px;
   margin-inline: auto;
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding: 20px;
   padding-top: 10px;
   border-radius: 10px;
@@ -48,4 +48,40 @@ p a {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+li {
+  font-size: x-large;
+  margin: 5px;
+}
+.topicContainer {
+  padding: 20px;
+  background-color: #c7c9d6;
+  max-width: 800px;
+  margin: 10px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.topicCard,
+.homeReturnBtn {
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  color: aliceblue;
+  background-color: #0364cb;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.topicCard:hover {
+  cursor: pointer;
+  background-color: #0e447e;
+}
+
+.quizBox {
+  max-width: 800px;
+  margin: auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
 }

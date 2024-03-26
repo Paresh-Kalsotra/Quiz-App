@@ -13,8 +13,10 @@ const TopicCard = ({ topic }) => {
   };
 
   return (
-    <div className="topicCard">
-      <button onClick={handleClick}>{topic}</button>
+    <div>
+      <button className="topicCard" onClick={handleClick}>
+        {topic}
+      </button>
     </div>
   );
 };
