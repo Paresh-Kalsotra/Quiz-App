@@ -60,7 +60,6 @@ li {
 }
 
 .topicCard,
-.homeReturnBtn,
 .quesbtn {
   padding: 10px;
   margin: 10px;
@@ -69,7 +68,7 @@ li {
   background-color: #0364cb;
   border-radius: 5px;
   border: 1px solid black;
-  transition: all 0.2s ease;
+  transition: border-radius 0.3s ease;
   cursor: pointer;
 }
 .topicCard:hover {
@@ -79,7 +78,14 @@ li {
 .quesbtn:hover {
   background-color: #0454a9;
 }
-
+.homeReturnBtn {
+  padding: 10px;
+  color: aliceblue;
+  background-color: #0364cb;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
 .quizBox {
   max-width: 600px;
   margin: auto;
