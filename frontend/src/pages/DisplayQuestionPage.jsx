@@ -46,7 +46,7 @@ const DisplayQuestionPage = () => {
     <div className="quizBox">
       {topicName && questions.length ? (
         <div className="questionBox">
-          <h2> {topicName} quiz</h2>
+          <h2 style={{ color: "#0364cb" }}> {topicName} quiz</h2>
           <hr />
           <form onSubmit={handleSubmit}>
             {questions.map((item) => (
@@ -56,7 +56,7 @@ const DisplayQuestionPage = () => {
           </form>
         </div>
       ) : (
-        <p style={{ marginTop: "100px" }}>
+        <p style={{ marginTop: "50px" }}>
           Topic Lost!! Go back to Home page to select topic.
           <br />
           <button className="homeReturnBtn" onClick={handleClick}>

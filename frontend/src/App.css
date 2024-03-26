@@ -29,7 +29,7 @@ input {
 
 .login-box button {
   background-color: #0364cb;
-  color: #fff;
+  color: #f0f0f0;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -55,11 +55,11 @@ li {
 }
 .topicContainer {
   padding: 20px;
-  background-color: #c7c9d6;
+  background-color: #f0f0f0;
   max-width: 800px;
   margin: 10px;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 20px;
   border: 1px solid black;
 }
 
@@ -72,10 +72,12 @@ li {
   background-color: #0364cb;
   border-radius: 10px;
   border: 1px solid black;
+  transition: all 0.3s ease;
 }
 .topicCard:hover {
   cursor: pointer;
-  background-color: #0e447e;
+  font-size: x-large;
+  background-color: #0454a9;
 }
 
 .quizBox {
@@ -83,5 +85,5 @@ li {
   margin: auto;
   background-color: #f0f0f0;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
